@@ -1,0 +1,9 @@
+-- CREATE TABLE user(
+--     id INT PRIMARY KEY,
+--     username VARCHAR(50) UNIQUE,
+--     email VARCHAR(50) UNIQUE NOT NULL,
+--     PASSWORD VARCHAR(50) NOT NULL
+-- );
+
+ALTER TABLE user
+MODIFY COLUMN id VARCHAR(50);
